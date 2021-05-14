@@ -1,4 +1,5 @@
 # tmbots
+An online service for automated monitoring of brands
 
 > A Vue.js project
 
