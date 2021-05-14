@@ -1,0 +1,35 @@
+@import "../core/_colors.scss";
+@import "../core/_typography.scss";
+
+.form-panel {
+  max-width: 493px;
+}
+
+label {
+  font-size: $font-size-small-16;
+  color: var(--black-color);
+  font-weight: 600;
+}
+
+.p-dialog .p-dialog-header {
+  display: flex!important;
+  justify-content: flex-end!important;
+  color: var(--medium-black-color);
+}
+
+.btn-secondary {
+  margin-top: 30px;
+  padding: 12px;
+}
+
+.form-text {
+  background: var(--white-color);
+  padding: 15px 20px;
+}
+
+.text-muted {
+  color: var(--light-black-color) !important;
+}
+
+
+

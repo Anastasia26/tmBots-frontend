@@ -1,0 +1,143 @@
+@import "../core/_colors.scss";
+@import "../core/_typography.scss";
+
+p.subtitle {
+  color: var(--subtitle-black-color);
+}
+
+.banner {
+  height: 100vh;
+  .home-btn {
+    width: 353px;
+  }
+  .banner-img-section {
+    height: 100%;
+    overflow: initial;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .banner-pattern {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.text-shadow {
+    text-shadow: 1px 6px 4px #cacaca;
+}
+
+
+.card, .popover {
+  padding: 15px;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0!important;
+  box-shadow: 0 2px 15px 0 var(--dark-grey-color);
+}
+
+.card-deck .card {
+  margin-right: 10px;
+  margin-bottom: 0;
+  margin-left: 10px;
+
+  .card-img-top {
+    width: 142px;
+    height: 121px;
+  }
+
+  .inner-text {
+    background-color: var(--white-color);
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: -6px 0px 0 4px $green-color, 1px 2px 10px -1px $dark-grey-color;
+
+    span {
+      font-size: $font-size-max-large;
+      font-weight: $font-weight-700;
+      color: $medium-black-color;
+    }
+  }
+
+  .text-muted {
+    width: 100%;
+    color: $green-color!important;
+    padding: 10px;
+    white-space: nowrap;
+  }
+
+  .card-footer {
+    margin: 0!important;
+    padding: 0!important;
+    background-color: rgba(0, 0, 0, 0);
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    font-size: 20px;
+    font-weight: $font-weight-500;
+  }
+}
+
+.price-section {
+  padding: 0 30px;
+}
+
+.pattern {
+  position: absolute;
+  right: 0;
+}
+
+
+@media (max-width: 360px) {
+  .banner-pattern, .pattern {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner {
+    height: 100%;
+    .title-section {
+      padding: 20px;
+      text-align: center;
+    }
+    .home-btn {
+      width: 100%;
+    }
+    .banner-img-section {
+      display: none;
+    }
+  }
+  .banner-pattern {
+    display: none;
+  }
+  .service-advantages {
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  p {
+    font-size: $font-size-small-12;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .card-section .inner-text {
+    background-color: var(--white-color);
+    width: 120px;
+    height: 120px;
+    border-radius: 60%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: -12px 0px 0 10px #31BB67, 1px 2px 10px -1px #E7E7E7;
+    span {
+      font-size: 40px;
+    }
+  }
+
+}
+

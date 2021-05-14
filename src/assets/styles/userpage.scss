@@ -1,0 +1,42 @@
+@import "../core/_colors.scss";
+@import "../core/_typography.scss";
+
+.user-header span {
+  vertical-align: middle;
+}
+
+.icon-content svg {
+  font-size: $font-size-small-20;
+}
+
+.id-client {
+  font-size: $font-size-small-18;
+  font-weight: $font-weight-500;
+  color: $subtitle-black-color;
+}
+
+.user-content {
+  .user-info {
+    .btn .b-icon.bi, .nav-link .b-icon.bi, .dropdown-toggle .b-icon.bi, .dropdown-item .b-icon.bi, .input-group-text .b-icon.bi {
+      font-size: 100% !important;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .form {
+    .form-group {
+      label {
+        font-size: $font-size-small-14 !important;
+        font-weight: $font-weight-600 !important;
+      }
+
+      input {
+        font-size: $font-size-small-12 !important;
+      }
+    }
+  }
+
+}
+
+

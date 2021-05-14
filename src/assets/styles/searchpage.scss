@@ -1,0 +1,42 @@
+.user-header .p-dropdown {
+  width: 100%;
+
+  .p-dropdown-label.p-placeholder {
+    padding: 0.365rem 0.75rem;
+  }
+}
+
+.card-section .card {
+  border: 1px solid var(--light-grey-color)!important;
+  border-radius: 8px;
+  padding: 0 15px;
+
+}
+
+.card-section .card_header {
+  padding: 10px 0;
+  background: var(--light-grey-color);
+}
+
+.card-section span {
+  font-size: 12px;
+}
+
+.card-section  .tile-info-title {
+  font-weight: 700;
+  color: var(--light-black-color);
+  white-space: nowrap;
+}
+
+.card-section .link, .checkbox-label {
+  font-size: 12px;
+}
+
+.create-new-search {
+  white-space: nowrap;
+}
+
+
+
+
+
